@@ -19,30 +19,37 @@ h1{
 }
 .half-width img{
     width: 60%;
-    padding-left: 30%;
+    padding-left: 5%;
     margin-top: auto;
 
 }
+section{
+    padding-bottom: 200px;
+}
 .onethird{
-    background-image: url("img/header-bg.png");
+    
+    background-image: url(img/header-bg.png);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    
 }
 .buttonfront{
     text-decoration: none;
-    background-image: linear-gradient(to bottom right, lightsalmon, red);     
+    background-image: linear-gradient(to bottom right, lightsalmon, tomato);     
     padding: 10px 20px;
     border-radius: 5px;
     color: whitesmoke;
     font-weight: 700;
 
 }
-section{
-    padding-top: 100px;
-    height: 250px;
-    background-repeat: no-repeat;
-    background-position: cover;
-}
+
 .twothird{
-    background-image: url("img/biography-bg.png");
+    padding-top: 0px;
+    margin-top: 0;
+    height: 150px;
+    background-image: url(img/biography-bg.png);
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -63,7 +70,7 @@ section{
     display: table;
   } 
   .third{
-      background-image: url("img/latest-work-bg.png") ;
+      background-image: url(img/latest-work-bg.png) ;
       background-repeat: no-repeat;
       background-position: cover;
       
@@ -95,8 +102,8 @@ section{
       text-align: center;
       margin-top: 300px;
   }
-  .others{
-      background-image: url("img/footer-bg.png");
+  .other{
+      background-image: url(img/footer-bg.png);
       background-position: cover;
       background-repeat: no-repeat;
 }
@@ -108,3 +115,14 @@ section{
     padding-left: 5px;
     padding-top: 30px;
 }
+.mail{
+    text-decoration: none;
+    color: papayawhip;
+}
+.mail:hover{
+    color:black;
+}
+a:visited{
+    color: rgba(0, 255, 85, 0.493);
+}
+
