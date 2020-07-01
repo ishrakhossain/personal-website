@@ -1,0 +1,106 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+    
+}
+.half-width{
+        width: 40%;
+        margin-left: 5%;
+        padding-left: 2%;
+        float: left;
+        height: 50%;
+    }
+
+.pink{
+    color: palevioletred;
+}
+.half-width img{
+    width: 60%;
+    padding-left: 5%;
+
+}
+.onethird{
+    background-image: url("img/header-bg.png");
+}
+.buttonfront{
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, lightsalmon, red);     
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 700;
+
+}
+section{
+    padding-top: 100px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.twothird{
+    background-image: url("img/biography-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#baby{
+    margin-top: 300px;
+    text-align: center;
+}
+ .column {
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+  .third{
+      background-image: url("img/latest-work-bg.png") ;
+      background-repeat: no-repeat;
+      background-position: cover;
+      
+  }
+  .down{
+      text-align: center;
+  }
+  #bruce{
+      margin-top: 100px;
+      text-align: center;
+  }
+  #founder{
+      text-align: center;
+  }
+  .message{
+      text-align: center;
+      background-color: teal;
+      color: white;
+      padding-right: 0px;
+      padding-left: 0px;
+      margin-left: 400px;
+      margin-right: 400px;
+      
+  }
+  #copyright{
+      text-align: center;
+      margin-top: 300px;
+  }
+  .others{
+      background-image: url("img/footer-bg.png");
+      background-position: cover;
+      background-repeat: no;
+}
+.link:hover{
+    color: black;
+}
+.box{
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 30px;
+}
