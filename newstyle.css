@@ -19,7 +19,8 @@ h1{
 }
 .half-width img{
     width: 60%;
-    padding-left: 5%;
+    padding-left: 30%;
+    margin-top: auto;
 
 }
 .onethird{
@@ -85,6 +86,8 @@ section{
       padding-left: 0px;
       margin-left: 400px;
       margin-right: 400px;
+      padding-bottom: 5px;
+      padding-top: 5px;
       
   }
   #copyright{
@@ -94,7 +97,7 @@ section{
   .others{
       background-image: url("img/footer-bg.png");
       background-position: cover;
-      background-repeat: no;
+      background-repeat: no-repeat;
 }
 .link:hover{
     color: black;
